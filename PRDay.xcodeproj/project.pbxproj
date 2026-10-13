@@ -10,6 +10,7 @@
 		0BDAA8CEEA3F58A37E02C4B8 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893B3312BBFD872FDF37E21 /* MeView.swift */; };
 		206ABF85F6F1449B58D5F0FA /* HealthKitInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1850E967425F7BC550458 /* HealthKitInfoView.swift */; };
 		28D2EE457D3289FCD68ED905 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F2F99438891C13824AA0E /* NotificationService.swift */; };
+		2AF82FD50FC509CB3DB9DC23 /* PRDay.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 3EC82D23689EF99A45054DCB /* PRDay.storekit */; };
 		2D833E178BA33F208DA9BF95 /* AICoachRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258A3BF52CC96749CEB3E22 /* AICoachRouter.swift */; };
 		2E54F0D76440DDA6809C55E0 /* FormDiagnosisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071ADE6D87A21801AA426173 /* FormDiagnosisService.swift */; };
 		2F5C4F30576D4228D6606F7C /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF334D84126DF6869D425141 /* AISettingsView.swift */; };
@@ -92,6 +93,7 @@
 		30796E143F78DBCD2E6E1CDD /* ParentReportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentReportService.swift; sourceTree = "<group>"; };
 		39FA95E70FD81BF3DEC898FA /* AIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIConfiguration.swift; sourceTree = "<group>"; };
 		3C35B4D8547B88BB7F964FB9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3EC82D23689EF99A45054DCB /* PRDay.storekit */ = {isa = PBXFileReference; path = PRDay.storekit; sourceTree = "<group>"; };
 		420768DF12EC3A04B79C586D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4497FDA97FDF3016655524E2 /* FormCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCheckView.swift; sourceTree = "<group>"; };
 		4BD07D0D30F33595BC2E8CAB /* PlanAdjustmentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAdjustmentEngine.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				AEF4C9609C524568E26F2648 /* GLMProxySecret.txt */,
 				12ADD3F899B29B256BB54B31 /* Info.plist */,
 				69B6871DED3C26C4A21E969D /* PRDay.entitlements */,
+				3EC82D23689EF99A45054DCB /* PRDay.storekit */,
 				A23763D46529916C99094EF6 /* PRDayApp.swift */,
 				77BE7F2373056DDAC8D2D517 /* PrivacyInfo.xcprivacy */,
 				13876F50B4BADE92A4E66DF8 /* AI */,
@@ -417,6 +420,7 @@
 			files = (
 				AFA368BA77C7FD7D9BEA8F06 /* Assets.xcassets in Resources */,
 				8AAF9AA62ADF6D561F5800C4 /* GLMProxySecret.txt in Resources */,
+				2AF82FD50FC509CB3DB9DC23 /* PRDay.storekit in Resources */,
 				458E41476C30489DFCB75EA8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

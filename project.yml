@@ -59,6 +59,8 @@ schemes:
     build:
       targets:
         PRDay: all
+    run:
+      storeKitConfiguration: PRDay/PRDay.storekit
     test:
       targets:
         - PRDayTests
