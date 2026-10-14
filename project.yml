@@ -27,11 +27,17 @@ targets:
           - UIInterfaceOrientationPortrait
           - UIInterfaceOrientationLandscapeLeft
           - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
         UIBackgroundModes:
           - remote-notification
         NSCameraUsageDescription: "PRDay records short running-form videos for AI analysis. Frames are processed on-device and deleted immediately."
         NSLocationWhenInUseUsageDescription: "PRDay checks local heat conditions so your training adapts to the weather."
         NSHealthShareUsageDescription: "PRDay can optionally read resting heart rate and sleep to add context to your training. Read-only."
+        NSHealthUpdateUsageDescription: "PRDay reads resting heart rate from Apple Health with your permission to add training context. The app does not write health data."
         ITSAppUsesNonExemptEncryption: false
         NSAppTransportSecurity:
           NSAllowsArbitraryLoads: false
